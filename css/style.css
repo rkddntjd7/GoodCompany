@@ -21,7 +21,7 @@ ul {
 }
 
 a {
-    color: #333;
+    color: #999;
     text-decoration: none;
 }
 
@@ -486,6 +486,115 @@ section {
 
 /*****************************/
 
+.foot-banner {
+    position: relative;
+    height: 300px;
+    background: #ededed;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.leftimg {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+
+}
+
+.righttext {
+    width: 50%;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+
+.righttext a{
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 10px 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.slider {
+    height: 90px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/***********************/
+
+footer {
+    height: 260px;
+    background: #333;
+    color: #ededed;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.topleft a{
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    color: #999;
+}
+
+.topleft a:first-child {
+    color: #ededed;
+    padding-left: 0;
+}
+
+.topleft a::after {
+    content: "";
+    width: 1px;
+    height: 20px;
+    background: #999;
+    position: absolute;
+    right: -3px;
+    top: 3px;
+}
+
+.topright a {
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    height: 50px; 
+    line-height: 45px;
+    color: #999;
+}
+
+.topright span {
+    padding-right: 150px;
+}
+
+.footer-bottom {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.footerlogo {
+    width: 20%;
+}
+
+.footer-content {
+    width: 50%;
+    top: 0;
+}
+
+.footer-company {
+    width: 30%;
+}
 
 
 
